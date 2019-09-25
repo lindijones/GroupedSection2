@@ -1,4 +1,4 @@
-struct GroupedSection<Identifier: Hashable, Row> {
+public struct GroupedSection<Identifier: Hashable, Row> {
     
     var identifier : Identifier
     var rows : [Row]
